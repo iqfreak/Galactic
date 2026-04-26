@@ -1,0 +1,14 @@
+# IDE config
+.vscode/
+
+# External dataset / competition folder
+3rd_Anti-UAV_CVPR23/
+Anti-UAV.yolo26.zip
+# Dataset folder
+dataset/
+
+# Model folder — ignore everything EXCEPT the runs/ subfolder
+Anti-UAV.yolo26/*
+!Anti-UAV.yolo26/runs/
+
+# Ignore zip artifacts
