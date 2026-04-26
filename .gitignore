@@ -3,7 +3,7 @@
 
 # External dataset / competition folder
 3rd_Anti-UAV_CVPR23/
-Anti-UAV.yolo26.zip
+
 # Dataset folder
 dataset/
 
@@ -12,3 +12,10 @@ Anti-UAV.yolo26/*
 !Anti-UAV.yolo26/runs/
 
 # Ignore zip artifacts
+Anti-UAV.yolo26.zip
+
+# Keep galactic.pt and Galatic.ipynb — ignore other root-level weights/notebooks
+yolo26n.pt
+galactictesting.ipynb
+tuning.ipynb
+sample_preview.png
