@@ -3,7 +3,7 @@ Galactic The anti-drone Ai model.
 
 This model is based on YOLO26n
 
-It has been fine tuned on a custom dataset curated as a mixture of 3 datasets. These datasets include drone footage and airborne objects.
+It has been fine tuned on a custom dataset curated as a mixture of 4 datasets. These datasets include drone footage and airborne objects.
 
 You will find that this model has been fine tuned three times. 
 It reached a mAP50 of 96.5% and mAP50-95 of 63.5%
