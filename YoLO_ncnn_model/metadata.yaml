@@ -1,0 +1,19 @@
+description: Ultralytics YOLO26n model trained on C:\Users\ahmed\Desktop\me\me\Coding\HARDCORE\Galatic_Defender\Anti-UAV.yolo26\data.yaml
+author: Ultralytics
+date: '2026-04-26T21:54:06.465361'
+version: 8.4.41
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: uav
+args:
+  batch: 1
+  half: false
+channels: 3
+end2end: false
